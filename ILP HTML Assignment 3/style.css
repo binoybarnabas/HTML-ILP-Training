@@ -53,7 +53,7 @@ padding-right:5px;
 }
 
 .logo{
-    background-image: url('./logo.png');
+    background-image: url('./assets/logo.png');
     margin-left:123px;
     background-size: contain;
     height:50px;
@@ -69,7 +69,7 @@ padding-right:5px;
 
 .hero-background{
     position:relative;
-    background-image: url('./herophoto.png');
+    background-image: url('./assets/herophoto.png');
     height:450px;
     width:80%;
     margin-left:123px;
@@ -176,7 +176,7 @@ justify-content:space-between;
 }
 
 .photo1{
-    background-image: url('./department_img_1.png');
+    background-image: url('./assets/department_img_1.png');
     flex:1;
     width:250px;
     height:200px;
@@ -188,7 +188,7 @@ justify-content:space-between;
 }
 
 .photo2{
-    background-image: url('./Department_img_2.png');
+    background-image: url('./assets/Department_img_2.png');
     flex:1;
     width:250px;
     height:200px;
@@ -200,7 +200,7 @@ justify-content:space-between;
 }
 
 .photo3{
-    background-image: url('./Department_img_3.png');
+    background-image: url('./assets/Department_img_3.png');
     flex:1;
     width:250px;
     height:250px;
@@ -237,7 +237,7 @@ font-size: 12px;
 
 .doctor-image{
     flex:1;
-    background-image: url('./Doctorsgroup.png');
+    background-image: url('./assets/Doctorsgroup.png');
     width:250px;
     height:250px;
     background-size:contain;
@@ -254,5 +254,69 @@ font-size: 12px;
 }
 
 .doctor-data ul{
-    list-style-image:url('./green_tick.png');
+    list-style-image:url('./assets/green_tick.png');
+}
+
+.speciality-header{
+    margin-top:70px;
+    text-align: center;
+}
+
+.speciality-header p{
+    margin-top:7x;
+    font-size:12px;
+}
+
+
+.specialist-photos{
+    margin-top:30px;
+    margin-left:170px;
+    margin-right:190px;
+}
+
+.image-data{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.img-height{
+    height:300px;
+    width:200px;
+
+}
+
+.img-height{
+    text-align:center;
+}
+
+.view-center{
+    display:flex;
+}
+.view-center-button{
+    flex:1;
+    height: 35px;
+    width:120px;
+    margin-top:45px;
+    margin-left: 26%;;
+    margin-right:170px;
+    
+}
+
+.view-all{
+    background-color:#17C1A3;
+    border-radius:5px;
+    border-width:0px;
+    color:white;
+    text-align: center;
+    height: 35px;
+    width:120px;
+    margin-top:45px;
+    margin-left:170px;
+    margin-right:170px;
+    
+}
+
+.img-height p{
+    font-size: 11px;
 }
