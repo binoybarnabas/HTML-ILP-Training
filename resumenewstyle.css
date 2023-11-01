@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+body{
+    font-family:Poppins;
+    background: black;
+}
+.header{
+    background-color:red;
+    height:150px;
+    width
+}
+
+/* .background-header{
+display:flex;
+margin:100px;
+height:500px;
+width:1200px;
+background-color: red;
+} */
+
+.background-style{
+margin-top:25px;
+margin-left:200px;
+height:100px;
+background-color:red;
+}
+
+.resume{
+    margin-left:100px;
+    margin-right:100px;
+    background-color:white;
+}
+
+.headers{
+margin-top:25px;
+width:100%;
+background-color:black;
+color:Orange;
+display:inline-block;
+height:200px;
+}
+
+.profilephoto{
+    flex:1;
+    padding-bottom:25px;
+    padding-right:50px;   
+    height:200px;
+    width:200px;
+}
+
+.name{
+    flex:4;
+    padding-top:50px;
+    padding-left:100px;
+    background-color:black;
+    color:Orange;
+}
+
+.contents{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+    width:100%; 
+}
+.leftdetails{
+    width:35%;
+    height:100%;
+    background-color: black;
+    color:white;
+    padding:40px;
+}
+.rightdetails{
+    padding:40px;
+    width:65%;
+    height:100%;
+    background-color: grey;
+}
+.expertise{
+    margin-top:20px;
+    border-style:solid;
+    border-radius:10px;
+    border-color:orange;
+    padding:10px;
+}
+.contact-detail, .expertise-detail{
+    /* padding:7px; */
+    margin:10px;
+}
+.about-me{
+    padding:10px;
+}
+.about-text{
+    padding-left:10px;  
+    padding-top:5px;
+}
+.education{
+    padding:10px;
+}
+.table-style{
+    border-style:solid;
+    border-color:orange;
+    border-radius:10px;
+}
+

@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color:#e5e5e5;
+}
+.nav-nar{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:100%;
+   
+}
+
+ul {
+    position:static;
+    width:99%;
+    border-radius:10px;
+    height:50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #14213d;
+    
+  }
+  
+  .nav-bar li {
+    float: left;
+  }
+  
+  .nav-bar li a {
+    display: block;
+    color: #e5e5e5;
+    text-align: center;
+    height:50px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #06d6a0;
+  }
+  
+  .active {
+    background-color: #f72585;
+  }
+
+
+  .main{
+    background-color: #e5e5e5;
+    position: relative;
+    margin-top:20px;
+    width:99%;
+    padding-top:100px;
+    border-style:solid;
+    border-width:3px;
+    border-color:#001d3d;
+    border-radius:10px;
+    height:400px;
+  }
+
+  .profile{
+    position:absolute;
+    background-image: url('../robertdiniro.jpg');
+    height:250px;
+    width:250px;
+    border-radius:30%;
+    left:75%;
+    top:25%;
+    background-size: contain;
+    background-repeat:no-repeat;
+  }
+
+  .text{
+    padding-left:100px;
+    background-color: #fca311;
+    height:300px;
+    padding-top:50px;
+    box-sizing:border-box;
+  }
+
+.footer{
+    display:flex;
+    background-color:#14213d;
+    margin-top:25px;
+    border-radius:10px;
+}
+
+.social{
+    flex:1;
+    padding-left:15px;
+    height:inherit;
+    padding-top:15px;
+}
+
+.contact-info{
+    flex:1;
+}
+
+.social ul{
+    list-style-type: none;
+    background-color:inherit;
+    height:inherit;
+}
+
+.social ul li{
+    padding:10px;
+}
+
+.contact-info ul{
+    list-style-type: none;
+}
+
+.social a{
+    text-decoration:none;
+    color:red;
+}
+
+table tr th,table tr td{
+  padding-left:25px;
+  padding-right:100px;
+  padding-top:5px;
+  padding-bottom:25px;
+  border-radius:10px;
+}
+
+table {
+  color:white;
+  
+}
+.languages{
+display:flex;
+
+}
+
+.java{
+
+  background-image: url('../assets/java.png');
+  height:150px;
+  width:150px;
+  background-size:contain;
+  border-radius:50%;
+  border-style:solid;
+  border-color:red;
+  background-repeat:no-repeat;
+  background-color: #e5e5e5;
+  background-position: center;
+}
+
+.python{
+  margin-left:10px;
+  background-image: url('../assets/python.png');
+  height:150px;
+  width:150px;
+  background-size:contain;
+  border-radius:50%;
+  border-style:solid;
+  border-color:red;
+  background-repeat:no-repeat;
+  background-color: #e5e5e5;
+}
+
+.react{
+  margin-left:10px;
+  background-image: url('../assets/react.png');
+  height:150px;
+  width:150px;
+  background-size:contain;
+  border-radius:50%;
+  border-style:solid;
+  border-color:red;
+  background-repeat:no-repeat;
+  background-color: #e5e5e5;
+}
+
+.javascript{
+  margin-left:10px;
+  background-image: url('../assets/javascript.png');
+  height:150px;
+  width:150px;
+  background-size:contain;
+  border-radius:50%;
+  border-style:solid;
+  border-color:red;
+  background-repeat:no-repeat;
+  background-color: #e5e5e5;
+}
+
+.mysql{
+  margin-left:10px;
+  background-image: url('../assets/mysql.png');
+  height:150px;
+  width:150px;
+  background-size:contain;
+  border-radius:50%;
+  border-style:solid;
+  border-color:red;
+  background-repeat:no-repeat;
+  background-color: #e5e5e5;
+}
+
+.mongodb{
+  margin-left:10px;
+  background-image: url('../assets/mongodb.jpg');
+  height:150px;
+  width:150px;
+  background-size:contain;
+  border-radius:50%;
+  border-style:solid;
+  border-color:red;
+  background-repeat:no-repeat;
+  background-color: #e5e5e5;
+}

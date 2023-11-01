@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+.first-header{
+    color:white;
+    text-align:center;
+    margin:10px;
+}
+
+.red-center{
+    color:red;
+    text-align:center;
+    margin:10px;
+}
+
+.ol-class{
+    border-style:solid;
+   /* padding-left:25px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-right:10px; */
+    margin:10px; 
+    border-color:lightsalmon;
+    background-color:lightpink;
+    padding-right:20px;
+
+}
+
+.ul-class{
+    border-style:solid;
+    margin:10px;
+    padding:20px;
+    background-color:rgb(84, 97, 198);
+}
+.li-class{
+    background-color:lightcyan;
+    margin:5px;
+}
+.ol-li{
+    background-color:lightgrey;
+}
